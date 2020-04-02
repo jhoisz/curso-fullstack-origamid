@@ -52,7 +52,7 @@ img{
     margin-left: 20px;
 }
 
-.headerD .login{
+.headerD .login a{
     color: #67118C;
     font-size: 17px;
     line-height: 10px;
@@ -60,10 +60,15 @@ img{
     margin: 20px;
 }
 .headerD .quero{
-    background: #67118C;
+    background: #67118C; 
+    text-align: right;
+    padding: 50px;
+
+}
+.headerD .quero a{
+    text-align: center;
     color: white;
     font-size: 17px;
     line-height: 10px;
-    padding: 20px;
-    margin: 20px;
+    margin-bottom: 0;
 }
