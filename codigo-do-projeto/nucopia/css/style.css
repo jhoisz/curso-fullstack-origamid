@@ -20,8 +20,7 @@ img{
     background: white;
     padding: 10px 0;
     z-index: 10;
-    border-bottom: 2px rgba(211, 211, 211, 0.1);
-    border-bottom-style: ridge;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.1);
 }
 
 .header a img{
@@ -47,28 +46,15 @@ img{
     padding: 10px 0;
 }
 
-.headerD{
-    text-align: right;
-    margin-left: 20px;
+.headerMenu .login{
+    margin-left: 250px;
 }
-
-.headerD .login a{
-    color: #67118C;
-    font-size: 17px;
-    line-height: 10px;
-    padding: 10px 0;
-    margin: 20px;
+.headerMenu .login a{
+    color: #9400d3;
 }
-.headerD .quero{
-    background: #67118C; 
-    text-align: right;
-    padding: 50px;
-
+.headerMenu .quero{
+    background-color: #9400d3;
 }
-.headerD .quero a{
-    text-align: center;
+.headerMenu .quero a{
     color: white;
-    font-size: 17px;
-    line-height: 10px;
-    margin-bottom: 0;
 }
