@@ -41,20 +41,34 @@ img{
 
 .headerMenu ul li a{
     color: grey;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 10px;
     padding: 10px 0;
 }
 
-.headerMenu .login{
-    margin-left: 250px;
+.headerMenu ul li a:hover{
+    color: #8b008b;
 }
-.headerMenu .login a{
-    color: #9400d3;
+
+.headerD{
+    position: absolute;
+    margin-left: 945px;
+    margin-top: -68px;   
+    font-size: 19;
 }
-.headerMenu .quero{
-    background-color: #9400d3;
+.headerD .login a:hover{
+    color: #8b008b;
 }
-.headerMenu .quero a{
+.headerD .quero:hover{
+    background: #8b008b;
+}
+.headerD .quero{
+    background: #9400d3;
+    padding: 34px;
+    padding-right: 56px;
+}
+.headerD .quero a{
+    text-align: center;
     color: white;
+    font-weight: 400;
 }
